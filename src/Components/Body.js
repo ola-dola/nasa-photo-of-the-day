@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Body({ nasaData }) {
   
-  if (!nasaData.url) return <div class="loader">Loading...</div>
+  if (!nasaData.url) return <div className="loader">Loading...</div>
 
   return (
     <div>
